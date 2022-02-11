@@ -1,0 +1,28 @@
+.container{
+    display:grid ;
+    grid-template: 15% 1fr / 30% 70%;
+    grid-template-areas:
+    "presentation picture"
+    "presentation picture"
+    "presentation main"
+    
+
+}
+
+.presentation{
+    grid-area:presentation;
+    background-color:rgb(248, 205, 124);
+    justify-self:center;
+}
+
+.picture{
+    grid-area:picture;
+    background-color:aliceblue;
+}
+
+
+.main{
+    grid-area:main;
+    background-color:rgb(133, 252, 139);
+}
+
